@@ -115,7 +115,8 @@ public class FactsBuilder {
      */
     private Collection sortUsers(Set<User> authors) {
         return authors.stream()
-                .sorted(Comparator.comparing(User::getFullName))
+                .map(User::getFullName)
+                .sorted()
                 .collect(Collectors.toList());
     }
 
