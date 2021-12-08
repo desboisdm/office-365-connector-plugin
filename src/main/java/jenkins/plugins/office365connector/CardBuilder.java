@@ -44,7 +44,7 @@ public class CardBuilder {
         final String statusName = "Started";
         factsBuilder.addStatus(statusName);
         factsBuilder.addRemarks();
-        factsBuilder.addCommitters();
+        // factsBuilder.addCommitters();
         factsBuilder.addDevelopers();
         factsBuilder.addUserFacts(factDefinitions);
 
@@ -80,7 +80,7 @@ public class CardBuilder {
         }
         factsBuilder.addStatus(status);
         factsBuilder.addRemarks();
-        factsBuilder.addCommitters();
+        // factsBuilder.addCommitters();
         factsBuilder.addDevelopers();
         factsBuilder.addUserFacts(factDefinitions);
 
